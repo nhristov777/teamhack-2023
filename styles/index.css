@@ -58,3 +58,25 @@ body{
     padding: 0.5em;
     border-radius: 1em;
 }
+
+.post--container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    width: 15em;
+    padding: 0.5em 0 0 0;
+    margin: 2em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.main--container{
+    display: flex;
+    padding-bottom: 36em;
+}
+
+.footer--container{
+    border-top: 1px solid grey;
+    padding: 1em;
+    background: #a3b18a;
+}
