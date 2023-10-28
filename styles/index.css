@@ -71,11 +71,16 @@ body{
 }
 
 .main--container{
-    padding-bottom: 30em;
+    padding-bottom: 10em;
 }
 
 .main--desc{
     margin: 5em;
+    border: 2px dotted #6c7955;
+    padding: 3em;
+    font-size: 1.3em;
+    font-weight: 470;
+    background: #a3b18a;
 }
 
 .posts--container{
@@ -86,4 +91,23 @@ body{
     border-top: 1px solid grey;
     padding: 1em;
     background: #a3b18a;
+}
+
+h1{
+    font-size: 5em;
+    text-align: center;
+}
+
+.categ--container{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    width: 10em;
+    margin: 1em 5em;
+}
+
+.categ--container li {
+    border: 1px solid grey;
+    border-radius: 1em;
+    padding: 0.1em 1em;
 }
