@@ -71,8 +71,15 @@ body{
 }
 
 .main--container{
+    padding-bottom: 30em;
+}
+
+.main--desc{
+    margin: 5em;
+}
+
+.posts--container{
     display: flex;
-    padding-bottom: 36em;
 }
 
 .footer--container{
